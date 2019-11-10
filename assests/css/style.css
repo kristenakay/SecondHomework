@@ -1,0 +1,205 @@
+
+/* sets background color and website margins to remove white border */
+body {
+    margin:0 auto;
+    background: lightgray;
+}
+
+/* sets header color, size, and border */
+header {
+    background: #ffffff;
+    height: 85px;
+    border-bottom: 2px solid darkgrey;
+    width: 100%;
+}
+
+/* sets color, size, and placement of box in header that contains name as well as color, horizontal placement
+and font of name in box */
+#box {
+    width: 20%;
+    padding: 0px;
+    border: 0px;
+    background: #4aaaa5;
+    position: relative;
+    float: left;
+    left: 19%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+/* sets vertical alignment of name in header box */
+h1 {
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+/* changes the postion and background color of links in nav bar */
+.breadcrumb {
+    float: right;
+    background: white;
+    position: relative;
+    right: 14%;
+    top: 15px;
+}
+
+/* changes color of non-active links in navigation bar */
+.breadcrumb li a {
+    color: darkgray;
+}
+
+/* changes color of active links in navigation bar */
+#active {
+    color: darkgray;
+}
+
+/* changes type, color, and spacing of the seperator between links in navigation bar */
+.breadcrumb > .breadcrumb-item + .breadcrumb-item:before {
+    content: "|";
+    padding: 0 12px;
+    color: lightgray;
+}
+
+/* sets spacing between main content box and header */
+.box1 {
+    padding-top: 30px;
+}
+
+/* sets the size, position, and color of main content box */
+.box2 {
+    float: center;
+    background: white;
+    width: 65%;
+    position: relative;
+    left: 19%;
+    padding-bottom: 90px;
+    display: inline-block;
+}
+
+/* sets the position, color, and font of page title */
+h2 {
+    position: relative;
+    left: 2.8%;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 160%;
+    padding-top: 10px;
+}
+
+/* sets the color and position of line under page title */
+h3 {
+    text-align: center;
+    color: lightgray;
+}
+
+/* sets the size, properties, color, and border for footer as well as text color and horizontal alignment*/
+footer {
+    background: #666666;
+    width: 100%;
+    height: 70px;
+    border: 0px;
+    padding: 0px;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: lightgray;
+    text-align: center;
+    
+}
+
+/* sets the veritcal postion and size of copyright in footer */
+h5 {
+    font-size: 75%;
+    position: relative;
+    top: 45px;
+}
+
+/* sets images to fill the size of their parent div */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* sets padding around paragraphs on about me page */
+.textbox {
+    padding: 3%;
+}
+
+/* sets the font, spacing, and color of paragraphs on about me page */
+p {
+    line-height: 1.5;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* sets the size, color, and position of contact form input boxes */
+.form-group {
+    color: #666666;
+    width: 95%;
+    float: center;
+    position: relative;
+    left: 2.5%;
+}
+
+/* sets the position, background color, text color, size, and text size of submit button on contact form */
+.subbut {
+    float: left;
+    position: relative;
+    background: #4aaaa5;
+    color: white;
+    font-size: 130%;
+    left: 22px;
+    width: 17%;
+    height: 42px;
+    border: 0px;
+}
+ 
+/* sets the size, padding, and position of boxes that contain images */
+.Piclink {
+    float: left;
+    position: relative;
+    width: 350px;
+    height: 320px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+/* sets the box size, background color, text color, text size, horizontal text position, and box position of 
+text boxes over portfolio links */
+.text-block {
+    position: relative; 
+    background: #4aaaa5;
+    color: white;
+    height: 50px;
+    padding: 0px;
+    border: 0px;
+    width: 290px;
+    bottom: 80px;
+    font-size: 150%;
+    text-align: center;
+    
+}
+
+/* sets vertical position of text in boxes over Portfolio links */
+h4 {
+    position: relative;
+    top: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
