@@ -30,12 +30,14 @@ and font of name in box */
     overflow: hidden;
 }
 
-/* sets vertical alignment of name in header box */
+/* sets vertical alignment of name in header box and sets font size relative to screen size */
 h1 {
     position: relative;
     top: 20px;
     font-weight: 600;
-    font-size: 200%;
+    font-size: 2.9vw;
+    
+    
 }
 
 /* changes the postion and background color of links in nav bar */
@@ -154,10 +156,9 @@ p {
     position: relative;
     background: #4aaaa5;
     color: white;
-    font-size: 130%;
+    font-size: 2.9vw;
     left: 22px;
     width: 17%;
-    height: 42px;
     border: 0px;
 }
  
@@ -191,6 +192,25 @@ text boxes over portfolio links */
 h4 {
     position: relative;
     top: 9px;
+}
+
+/* makes it so header elements dont overlap and makes header smaller when screensize is under 600 px */
+@media only screen and (max-width: 600px) {
+    #box {
+        position: relative;
+        left: 0px;
+        
+    }
+    .breadcrumb {
+        position: relative;
+        right: 0px;
+        top: 5px;
+        
+    }
+    header {
+        height: 60px;
+        
+    }
 }
 
 
